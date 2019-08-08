@@ -1,11 +1,12 @@
 .hero
-  padding: 50px 0
+  padding: 50px 0 50px 0
   background-color: $bg-color
   &-block    
     display: flex
   &-text
-    flex-basis: 44%
+    flex-basis: 50%
     padding-right: 78px
+    margin-top: 27px
     &__title
       font-size: 41px
       font-weight: 700
@@ -20,10 +21,14 @@
   &-list
     margin: 0
     padding: 0
+    max-width: 330px
     &__item
       display: flex
       align-items: center
       margin-bottom: 25px
+      line-height: 24px
+      &:last-child
+        margin-bottom: 0
     &__image
       width: 40px
       height: 40px
@@ -48,6 +53,7 @@
   .hero
     padding-top: 30px
     &-text
+      margin-top: 17px
       &__title
         font-size: 24px
         line-height: 1.4
@@ -58,6 +64,7 @@
     &-list
       &__item
         margin-bottom: 20px
+        line-height: 1
       &__text
         font-size: 12px
         max-width: 70%

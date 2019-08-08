@@ -56,6 +56,7 @@ img {
   background-color: #ffd200;
   border: none;
   padding: 18px 30px;
+  outline: none;
   font-weight: 700;
 }
 
@@ -232,7 +233,7 @@ img {
 }
 
 .hero-list__text {
-  max-width: 300px;
+  max-width: 250px;
   font-size: 14px;
 }
 
@@ -317,6 +318,7 @@ img {
 
 .offer__input {
   margin-bottom: 30px;
+  outline: none;
   width: 240px;
 }
 
